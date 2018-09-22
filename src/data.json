@@ -1,0 +1,35 @@
+{
+  "list_items": [
+    {
+      "name": "credit score",
+      "value": "706"
+    },
+    {
+      "name": "credit age",
+      "value": "16yr."
+    },
+    {
+      "name": "inquiries",
+      "value": "2"
+    },
+    {
+      "name": "bankruptcies",
+      "value": "0"
+    },
+    {
+      "name": "credit utilization",
+      "value": "32%"
+    },
+    {
+      "name": "credit limit",
+      "value": "$49,300"
+    }
+  ],
+  "message": {
+    "response": {
+      "header": "Yay! You qualify for a credit card 🎉",
+      "subheader": "A credit card is a great option for you right now."
+    },
+    "result": "success"
+  }
+}
