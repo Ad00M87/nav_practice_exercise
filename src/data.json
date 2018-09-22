@@ -25,8 +25,8 @@
       "value": "$49,300"
     }
   ],
-  "message": {
-    "response": {
+  "response": {
+    "message": {
       "header": "Yay! You qualify for a credit card 🎉",
       "subheader": "A credit card is a great option for you right now."
     },

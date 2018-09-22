@@ -21,7 +21,7 @@ class Card extends React.Component {
         <Tabs changeTab={this.changeTab} />
         { tabDisplay === "credit" ?
           <div>
-            <Flash text={data.message.response} result={data.message.result} />
+            <Flash text={data.response.message} result={data.response.result} />
             <List items={data.list_items}/>
           </div>
           :

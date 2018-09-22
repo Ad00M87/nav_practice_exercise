@@ -1,3 +1,15 @@
+h1, h3 {
+  font-family: Helvetica,sans-serif;
+  font-weight: bold;
+  color: #444751;
+}
+
+p {
+  font-family: 'Roboto',Helvetica,sans-serif;
+  margin: 0;
+  color: #444751;
+}
+
 .addCircle {
   font-size: 2em;
   margin-bottom: 10px;
@@ -5,7 +17,7 @@
 
 .background {
   background-color: #eee;
-  height: 100vh;
+  height: 100%;
 }
 
 .container {
@@ -18,13 +30,8 @@
   background-color: #fff;
   border-radius: 4px;
   padding: 24px;
-  width: 40vw;
+  width: 50%;
   box-shadow: 0 0 3px 0 #D0D2D6;
-}
-
-h1, h3 {
-  font-family: Helvetica,sans-serif;
-  font-weight: bold;
 }
 
 .horizontalRule {
@@ -43,11 +50,6 @@ h1, h3 {
   align-items: center;
   border: 1px solid #D0D2D6;
   padding: 32px;
-}
-
-p {
-  font-family: 'Roboto',Helvetica,sans-serif;
-  margin: 0;
 }
 
 .marginText {
