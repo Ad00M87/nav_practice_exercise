@@ -1,20 +1,30 @@
-.Background {
+.addCircle {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.background {
   background-color: #eee;
   height: 100vh;
 }
 
-.Container {
+.container {
   padding: 100px 200px 100px 200px;
   display: flex;
   justify-content: center;
 }
 
-.Card {
+.card {
   background-color: #fff;
   border-radius: 4px;
   padding: 24px;
   width: 40vw;
   box-shadow: 0 0 3px 0 #D0D2D6;
+}
+
+h1, h3 {
+  font-family: Helvetica,sans-serif;
+  font-weight: bold;
 }
 
 .horizontalRule {
@@ -26,8 +36,27 @@
   margin: 8px 0;
 }
 
+.loanCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #D0D2D6;
+  padding: 32px;
+}
+
 p {
+  font-family: 'Roboto',Helvetica,sans-serif;
   margin: 0;
+}
+
+.marginText {
+  margin-bottom: 10px;
+}
+
+.smallIcon {
+  color: #D9A380;
+  width: 100px;
 }
 
 .tabIcon {

@@ -1,6 +1,7 @@
 import React from 'react';
 import Tabs from './Tabs';
 import List from './List';
+import LoanCard from './LoanCard';
 import Flash from './Flash';
 import data from '../data.json';
 
@@ -16,7 +17,7 @@ class Card extends React.Component {
   render() {
     let { tabDisplay } = this.state;
     return(
-      <div className="Card">
+      <div className="card">
         <Tabs changeTab={this.changeTab} />
         { tabDisplay === "credit" ?
           <div>
@@ -24,7 +25,7 @@ class Card extends React.Component {
             <List items={data.list_items}/>
           </div>
           :
-          <h1>Under Construction</h1>
+          <LoanCard />
         }
       </div>
     )
